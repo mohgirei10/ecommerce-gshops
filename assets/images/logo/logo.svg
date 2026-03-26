@@ -1,0 +1,28 @@
+<svg width="500" height="150" viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient Definition -->
+  <defs>
+    <linearGradient id="techBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#007BFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#004085;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- The "G" Icon (Now at the Front) -->
+  <g transform="translate(40, 25)">
+    <!-- Outer Ring -->
+    <path d="M90 50 C90 72.09 72.09 90 50 90 C27.91 90 10 72.09 10 50 C10 27.91 27.91 10 50 10 C65 10 78 18 84 30" 
+          stroke="url(#techBlue)" stroke-width="14" fill="none" stroke-linecap="round" />
+    
+    <!-- Crossbar -->
+    <path d="M50 50 H90" stroke="url(#techBlue)" stroke-width="14" stroke-linecap="round" />
+    
+    <!-- Tech Accent Detail -->
+    <rect x="47" y="47" width="6" height="6" fill="#007BFF" />
+  </g>
+
+  <!-- "SHOP" Text -->
+  <text x="160" y="105" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="800" font-size="70" fill="#001F3F" letter-spacing="4">SHOP</text>
+
+  <!-- Minimalist Underline Accent -->
+  <rect x="160" y="120" width="260" height="4" fill="url(#techBlue)" rx="2" />
+</svg>
