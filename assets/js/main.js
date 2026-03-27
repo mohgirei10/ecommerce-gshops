@@ -1,7 +1,4 @@
-/*
-Template Name: ShopGrids - Bootstrap 5 eCommerce HTML Template.
-Author: GrayGrids
-*/
+
 
 (function () {
     //===== Prealoder
